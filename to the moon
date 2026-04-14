@@ -98,9 +98,7 @@ to the moon / by moonstruck-themes. see credits @ https://moonstruck-themes.tumb
 
 <meta name="if:Bold Color" content="0"/>
 
-<meta name="select:Post Width" content="540px" title="500px"/>
-<meta name="select:Post Width" content="490px" title="450px"/>
-<meta name="select:Post Width" content="590px" title="540px"/>
+<meta name="text:Post Width" content="540px"/>
 
 <meta name="if:Submit Link" content="1"/>
 
@@ -747,18 +745,18 @@ width: calc(100% - 370px);
 #posts {
 margin-left: auto;
 margin-right: auto;
-width: calc({select:Post Width} + 2px);
+width: calc({text:Post Width} + 2px);
 }
 
 .entries {
 margin-bottom: 50px;
-width: calc({select:Post Width} + 2px);
+width: calc({text:Post Width} + 2px);
 }
  
 .entries-wrapper {
 background: {color:Post Background};
 border: 1px solid {color:Border};
-width: {select:Post Width};
+width: {text:Post Width};
 }
 
 .entries img {
